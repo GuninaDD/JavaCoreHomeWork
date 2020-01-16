@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="230.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+      <TextArea fx:id="chat_ta" editable="false" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS" size="14.0" />
+         </font></TextArea>
+   </center>
+   <bottom>
+      <HBox>
+            <TextField fx:id="msg_tf" onAction="#sendMessage" promptText="Введите сообщение..." HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="14.0" />
+            </font></TextField>
+            <Button fx:id="btn_snd" alignment="CENTER" mnemonicParsing="false" onAction="#sendMessage" prefHeight="30.0" prefWidth="75.0" text="Отправить" textAlignment="CENTER" GridPane.columnIndex="1" HBox.hgrow="ALWAYS" />
+      </HBox>
+   </bottom>
+</BorderPane>
