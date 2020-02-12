@@ -1,0 +1,2 @@
+to NewUser1.0: hello
+NewUser1.0 вышел из чата
