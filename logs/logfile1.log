@@ -1,0 +1,9 @@
+INFO  2020-02-24 11:44:21 [main] com.geekbrains.chat.server.Server (Server.java:32) - Сервер запущен. Ожидаем подключения клиентов...
+INFO  2020-02-24 11:44:38 [main] com.geekbrains.chat.server.Server (Server.java:35) - Клиент подключился
+INFO  2020-02-24 11:44:38 [pool-2-thread-1] com.geekbrains.chat.server.ClientHandler (ClientHandler.java:37) - Сообщение от клиента: /auth login1 pass1
+
+INFO  2020-02-24 11:47:48 [main] com.geekbrains.chat.server.Server (Server.java:32) - Сервер запущен. Ожидаем подключения клиентов...
+INFO  2020-02-24 11:48:00 [main] com.geekbrains.chat.server.Server (Server.java:35) - Клиент подключился
+INFO  2020-02-24 11:48:00 [pool-2-thread-1] com.geekbrains.chat.server.ClientHandler (ClientHandler.java:37) - Сообщение от клиента: /auth login2 pass2
+
+ERROR 2020-02-24 11:48:05 [pool-2-thread-1] com.geekbrains.chat.server.ClientHandler (ClientHandler.java:80) - java.net.SocketException: Connection reset
